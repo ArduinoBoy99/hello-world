@@ -1,1 +1,9 @@
 # hello-world
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+    Serial.write("Hello world.");
+    delay(500);
+}
